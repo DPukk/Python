@@ -1,15 +1,10 @@
 # Darion Pukk 07.01.2024
 
 # # Harjutus 2
-# # Küsi kasutajalt sisendit
 
 # sisend = input("Sisesta tekst: ")
 
-# # Asendan kõik tühikud punktidega
-
 # muudetud_sisend = sisend.replace(" ", "...")
-
-# # Väljasta muudetud tekst
 
 # print("Muudetud tekst: ", muudetud_sisend)
 
@@ -17,21 +12,15 @@
 
 # def aeg_und_eks(aeg):
 
-#     # Muudan str formaadi float-iks
-
 #     tund, minut = map(int, aeg.split(":"))
 
 #     return tund + minut / 60
 
-# # Küsi kasutajalt sisendit
 
 # aeg = input("Sisesta aeg (24-tunnises formaadis, näiteks 7:30): ")
 
-# # Konverteeri aeg float-iks
-
 # aeg_f = aeg_und_eks(aeg)
 
-# # Kontrolli, kas on hommikusöök, lõunasöök või õhtusöök
 
 # if 7 <= aeg_f <= 8:
 
@@ -77,6 +66,5 @@
 
 #     print(f"Tagasimakse on {summa - hind} senti." if summa > hind else "Täpselt 50 senti, tagasimakset pole.")
 
-# # Käivita programm
 
 # coca_automaat()
